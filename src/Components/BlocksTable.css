@@ -1,0 +1,107 @@
+/* Define the style for the table container */
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Define the style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Define the style for the table header */
+  th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Define the style for the table data */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Define the style for the pagination controls */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Define the style for the pagination buttons */
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+  
+  /* Define the style for the active pagination button */
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Define the style for the disabled pagination button */
+  button[disabled] {
+    cursor: not-allowed;
+  }
+/* Define the style for the table container */
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0.3,0.1);
+}
+
+/* Define the style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Define the style for the table header */
+th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Define the style for the table data */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Define the style for the pagination controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* Define the style for the pagination buttons */
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* Define the style for the active pagination button */
+button:hover {
+  background-color: #ddd;
+}
+
+/* Define the style for the disabled pagination button */
+button[disabled] {
+  cursor: not-allowed;
+}
+  
