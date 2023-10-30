@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  margin: 40px auto; /* Add margin to center the table and create separation */
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
 }
 
 .App-logo {

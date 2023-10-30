@@ -1,5 +1,5 @@
 //import { Alchemy, Network } from 'alchemy-sdk';
-import BlockTable from './Components/BlocksTable';
+import BlockTable from './Components/BlocksList/BlocksListTable';
 
 import './App.css';
 
@@ -12,9 +12,14 @@ import './App.css';
 
 function App() {
     return (
-    <div className="App">
-      <BlockTable />
-    </div>
+    <>
+      <div className="title">
+        Ethereum Mainnet Block Explorer
+      </div>
+      <div className="App">
+        <BlockTable />
+      </div>
+    </>
   );
 }
 

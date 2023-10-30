@@ -1,7 +1,7 @@
 /* Define the style for the table container */
 .table-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 35px auto;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
@@ -12,11 +12,20 @@
     border-collapse: collapse;
   }
   
+  caption {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+  }
+
   /* Define the style for the table header */
   th {
     background-color: #f0f0f0;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   
   /* Define the style for the table data */
@@ -65,6 +74,11 @@ table {
   border-collapse: collapse;
 }
 
+tr:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor to a hand on hover */
+  }
+
 /* Define the style for the table header */
 th {
   background-color: #f0f0f0;
@@ -98,6 +112,7 @@ button {
 /* Define the style for the active pagination button */
 button:hover {
   background-color: #ddd;
+  cursor: pointer;
 }
 
 /* Define the style for the disabled pagination button */
