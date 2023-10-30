@@ -1,8 +1,8 @@
 # Ethereum Block Explorer
 
-This project is a blockexplorer for the Ethereum Mainnet. A blockexplorer is a web application that allows users to explore the Ethereum blockchain.
+This project is a Block Explorer for the Ethereum Mainnet. A Block Explorer is a web application that allows users to explore the Ethereum blockchain.
 
-This blockexplorer shows a table with all the blocks, and the user can click on a specific block to see the transactions it contains.
+This Block Explorer shows a table with all the blocks, and the user can click on a specific block to see the transactions it contains.
 
 ## Getting Started
 
