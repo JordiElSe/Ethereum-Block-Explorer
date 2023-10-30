@@ -29,7 +29,7 @@ REACT_APP_ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
 
 Note:
   - Do not remove the `REACT_APP_` prefix. React uses that to import env variables.
-  - With the free Alchemy plan you have a limited amount of requests you can do. In some cases, if a block contains a lot of transactions, trying to retrieve them may exceed the request limits and the transactions will not be displayed. If this happens, you can either upgrade your Alchemy plan or click another block with less transactions. Feel free to change the provider to another one if you want to.
+  - With the free Alchemy plan you have a limited amount of requests you can do. In some cases, if a block contains a lot of transactions, trying to retrieve them may exceed the request limits and the transactions will not be displayed. If that happens, you can either upgrade your Alchemy plan or click another block with less transactions. Feel free to change the provider to another one if you want to.
 
 ## 3. Start the webserver
 
